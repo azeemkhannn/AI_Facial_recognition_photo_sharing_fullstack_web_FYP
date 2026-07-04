@@ -66,7 +66,8 @@ cd node-server-1
 npm install
 ```
 
-**Nodemailer Configuration:**
+
+**Nodemailer Configuration:** 
 Create a `.env` file in the `node-server` directory and add your email credentials:
 
 ```
@@ -76,7 +77,7 @@ EMAIL_PASS=your_email_password
 
 Modify `index.js` to use these credentials for sending OTPs and verification emails.
 
-Run the server:
+Run the server: 
 
 ```sh
 npm start
